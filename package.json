@@ -1,0 +1,31 @@
+{
+  "name": "@marcoparrone/appwithtopbar",
+  "version": "1.0.0",
+  "description": "App container element with material TopAppBar react component.",
+  "main": "src/appwithtopbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoparrone/appwithtopbar.git"
+  },
+  "keywords": [
+    "top",
+    "bar",
+    "topbar",
+    "react",
+    "material"
+  ],
+  "author": "Marco Parrone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcoparrone/appwithtopbar/issues"
+  },
+  "homepage": "https://github.com/marcoparrone/appwithtopbar#readme",
+  "dependencies": {
+    "@material/react-material-icon": "^0.15.0",
+    "@material/react-top-app-bar": "^0.15.0",
+    "react": "^17.0.1"
+  }
+}
