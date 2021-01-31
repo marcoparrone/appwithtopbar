@@ -30,12 +30,12 @@ For creating a container element with a materia Top App Bar, you can use the App
 
 
 ```js
-<AppWithTopBar refprop={this.notesListRef} lang={this.state.language} appname={this.state.text_appname}
-  icons={[{label: this.state.text_add_label, icon: 'add', callback: () => this.addNote()},
-          {label: this.state.text_settings_label, icon: 'settings', callback: () => open_dialog(this.notesListRef, 'settings')},
-          {label: this.state.text_importexport_label, icon: 'import_export', callback: () => open_dialog(this.notesListRef, 'impexp')},
-          {label: this.state.text_help_label, icon: 'help', callback: () => open_dialog(this.notesListRef, 'help')},
-          {label: this.state.text_about_label, icon: 'info', callback: () =>  open_dialog(this.notesListRef, 'about')}]} >
+<AppWithTopBar refprop={this.notesListRef} lang={this.state.language} appname={this.state.text['text_appname']}
+  icons={[{label: this.state.text['text_add_label'], icon: 'add', callback: () => this.addNote()},
+          {label: this.state.text['text_settings_label'], icon: 'settings', callback: () => open_dialog(this.notesListRef, 'settings')},
+          {label: this.state.text['text_importexport_label'], icon: 'import_export', callback: () => open_dialog(this.notesListRef, 'impexp')},
+          {label: this.state.text['text_help_label'], icon: 'help', callback: () => open_dialog(this.notesListRef, 'help')},
+          {label: this.state.text['text_about_label'], icon: 'info', callback: () =>  open_dialog(this.notesListRef, 'about')}]} >
 ...
 ... other content of the app ...
 ...
